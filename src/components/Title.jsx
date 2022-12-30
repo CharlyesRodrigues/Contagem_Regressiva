@@ -1,0 +1,25 @@
+import "./Title.css"
+
+// Duas formas de chamar um componente
+
+/*const Title = ({title}) => {
+ 
+
+  return  <h1 >{title} </h1>;
+  
+};
+
+export default Title;*/
+
+
+function Title({title}) {
+ 
+
+    return (
+        
+        <h1 className="teste" >{title} </h1>
+         
+    )
+  }
+  
+  export default Title;
