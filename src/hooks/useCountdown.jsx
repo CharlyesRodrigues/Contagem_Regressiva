@@ -13,7 +13,7 @@ const useCountdown = (date) =>{
    
     const  countDate = new Date(date).getTime(); // countDate se refere a data futura
   
-    const  now= new Date().getTime(); // now se refere a data atual
+    const  now = new Date().getTime(); // now se refere a data atual
    
     const intervalo =  countDate - now;
    
